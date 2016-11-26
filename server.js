@@ -68,7 +68,7 @@ app.delete('/api/todos/:todo_id', function(request, response) {
 });
 
 // front-end page
-app.get'/', function(request, response) {
+app.get('/', function(request, response) {
 	response.sendfile('./public/index.html');
 });
 
