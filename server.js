@@ -90,5 +90,7 @@ console.log("Done with GET for / and *");
 
 
 // ===================== Listen
-app.listen(80);
-console.log("App listening on port 80");
+var port = process.env.PORT || 8080;
+
+app.listen(port);
+console.log("App listening on port " + port);
